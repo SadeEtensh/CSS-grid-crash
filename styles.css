@@ -4,6 +4,10 @@ body {
 .container {
   border: 6px solid black;
   display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 100px; /* sets the height of first row to be 100px*/
+
+  gap: 20px 30px;
 }
 .grid-item {
   color: white;
